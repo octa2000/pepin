@@ -1,0 +1,97 @@
+/* style.css */
+body {
+  background: #f5f5f5; /* Cambio del color de fondo a un gris claro */
+  color: #333; /* Cambio del color del texto a un tono de gris más oscuro */
+  font-size: 16px; /* Cambio del tamaño de fuente a 16px (tamaño de fuente por defecto) */
+  font-family: 'Helvetica', Arial, sans-serif; /* Uso de 'Helvetica' como fuente principal y alternativa 'Arial' */
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace; /* Uso de una fuente monoespaciada */
+  color: #ff5733; /* Cambio del color del encabezado h1 a naranja */
+  font-weight: bold; /* Hacer el texto h1 en negrita */
+  font-size: 24px; /* Aumento del tamaño de fuente a 24px */
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ff66b2; /* Cambio del color del encabezado h2 a rosa */
+  font-weight: bold;
+  font-size: 20px; /* Aumento del tamaño de fuente a 20px */
+}
+
+a {
+  color: #ffff00; /* Cambio del color de los enlaces a amarillo */
+  text-decoration: none; /* Eliminación del subrayado predeterminado de los enlaces */
+  transition: color 0.3s; /* Agregar una transición suave al color al pasar el mouse sobre los enlaces */
+}
+
+a:hover {
+  color: #800080; /* Cambio del color al pasar el mouse sobre los enlaces a púrpura */
+}
+/* Estilos para el banner */
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* Estilos para las tarjetas */
+.tarjeta {
+  display: inline-block;
+  width: 300px; /* Ancho fijo para las tarjetas */
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+  padding: 20px; /* Reduzco el padding para dar más espacio a la imagen */
+  background-color: white; /* Agrego un fondo blanco */
+  border: 1px solid #ddd; /* Agrego un borde gris */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agrego una sombra */
+}
+
+/* Estilos para la imagen dentro de la tarjeta */
+.tarjeta img {
+ width: 200px; /* Ancho de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+  vertical-align: middle; /* Centra verticalmente la imagen */
+}
+
+/* Estilos para el contenido de la tarjeta */
+.tarjeta h2 {
+  font-size: 24px;
+  color: #333; /* Color de texto más oscuro */
+}
+
+.tarjeta p {
+  font-size: 16px;
+  color: #666; /* Color de texto gris */
+}
+
+/* Estilos para el pie de página */
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a {
+color: lightgrey;
+font-size: 25px;
+}
+#footer a:hover {
+color: white;
+}
